@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>アオイのポートフォリオ</title>
+    <style>
+      /* --- 全体のデザイン調整 --- */
+      :root {
+        --theme-color: #00a0a0; /* 好みに合わせて色を変えられます */
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        margin: 0;
+        padding: 40px 20px;
+        color: #333;
+        background-color: #fcfcfc;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      }
+
+      /* --- 見出しのデザイン --- */
+      h1 {
+        color: var(--theme-color);
+        font-size: 2.5rem;
+        margin-top: 0;
+        text-align: center;
+      }
+      h2 {
+        color: var(--theme-color);
+        border-bottom: dashed 2px var(--theme-color);
+        padding-bottom: 8px;
+        margin-top: 40px;
+      }
+
+      /* --- リンクとリスト --- */
+      a {
+        color: var(--theme-color);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+
+      /* --- 表（テーブル）のデザイン --- */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+      }
+      th, td {
+        border: solid 1px #eee;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background: var(--theme-color);
+        color: #fff;
+        width: 30%;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>アオイ</h1>
+
+      <h2>About</h2>
+      <p>
+        はじめまして、アオイです！現在、プログラミングの学習に取り組んでいます。<br>
+        モノづくりが好きで、Webサイト制作やクリエイティブコーディングに興味を持っています。
+      </p>
+
+      <h2>Profile</h2>
+      <ul>
+        <li><strong>名前：</strong> アオイ</li>
+        <li><strong>所在地：</strong> 京都市山科区</li>
+        <li><strong>興味のある分野：</strong> Web開発、フロントエンド、デジタルアート</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <th>言語 / 技術</th>
+          <td>HTML5, CSS3, JavaScript (p5.js)</td>
+        </tr>
+        <tr>
+          <th>ツール / 開発環境</th>
+          <td>Git, GitHub, VS Code</td>
+        </tr>
+        <tr>
+          <th>学習中のこと</th>
+          <td>Bootstrap、Webサイトのデザイン、アルゴリズムの基礎</td>
+        </tr>
+      </table>
+
+      <h2>Works</h2>
+      <p>これまでに制作した作品や、学習の記録です。</p>
+      <ul>
+        <li>
+          <a href="https://github.com/" target="_blank">GitHubのリポジトリ</a>
+          <p>このポートフォリオサイトのコードをはじめ、日々の学習コードを管理しています。</p>
+        </li>
+        <li>
+          作った作品（Open Processingなど）
+          <ul>
+            <li><a href="#" target="_blank">作品1：ランダムアートブラシ</a>（URLを差し替えてください）</li>
+            <li><a href="#" target="_blank">作品2：タイピングゲーム</a>（あれば追加してください）</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>お気軽に以下のリンクよりご連絡ください。</p>
+      <ul>
+        <li><a href="mailto:your-email@example.com">Mail (メールを送る)</a></li>
+        <li><a href="https://x.com/" target="_blank">X (旧 Twitter)</a></li>
+      </ul>
+    </div>
+
+  </body>
+</html>
